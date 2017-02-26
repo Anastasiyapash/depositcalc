@@ -3,8 +3,16 @@
 int main(){
 	int day,sum, sum1, sum2;
 	printf ("vvedite day and sum\n");
-	scanf ("%d %d", &day, &sum);
-	
+	if(!scanf ("%d", &day) || !scanf ("%d",&sum))
+	{
+			printf("invalid input");
+			return 1;
+	}
+	if (day<0 || day>365 || sum<10000)
+	{
+			printf("invalid range");
+			return 1;
+	}
 	sum1 = sum;
 	sum2 = sum;
 	if (day<=30)  
