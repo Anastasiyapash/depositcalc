@@ -1,6 +1,7 @@
 *.exe
-*.o
+build/*
 *.swp
 *~
 #*#
 main
+bin/deposit-calc*
