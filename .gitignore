@@ -1,7 +1,0 @@
-*.exe
-build/*
-*.swp
-*~
-#*#
-main
-bin/deposit-calc*
